@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -12,8 +13,30 @@ h1{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 5%;
 }
 .frist-width img{
-    width: 100%;
+    width: 80%;
+    margin: 20px 0px 0px 0px ;
+}
+.top-banner{
+    border: 1px ;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.linl_button{
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
