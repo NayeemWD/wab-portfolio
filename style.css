@@ -2,33 +2,27 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
+.top-banner{
+    border: 1px ;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
 }
-.name-highlight{
-    color: orange;
-}
-
 .frist-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 5%;
 }
-.frist-width img{
-    width: 80%;
-    margin: 20px 0px 0px 0px ;
+h1{
+    font-size: 50px;
 }
-.top-banner{
-    border: 1px ;
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+.name-highlight{
+    color: orange;
 }
-section{
-    height: 500px;
+.p-1{
+    text-align: justify;
 }
-.linl_button{
-    
+.link_button{   
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -39,4 +33,42 @@ section{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.frist-width img{
+    width: 75%;
+    margin: 20px 0px 0px 0px ;
+    margin-top: 20px;
+}
+section{
+    height: 500px;
+}
+
+
+.list-width img{
+    width: 60%;
+    margin: 20px 0px 20px 90px;
+}
+.list-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-right: 5%;
+}
+.p-1{
+    text-align: justify;
+}
+.link-resume{   
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+section{
+    height: 500px;
 }
