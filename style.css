@@ -57,7 +57,7 @@ section{
 .p-1{
     text-align: justify;
 }
-.link-resume{   
+.link-resume{
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -68,6 +68,10 @@ section{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+.s2{
+    margin-left: 5px;
+    margin-top: 15px;
 }
 section{
     height: 500px;
